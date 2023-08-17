@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36819185.css",
+    "main.js": "/static/js/main.81efd35f.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/mainlogo.svg": "/static/media/mainlogo.b6224ab09636c2310bb792b9ebf86f4d.svg",
+    "static/media/hand.svg": "/static/media/hand.9087b6bbbaf2c828b7a6fabb8e895e07.svg",
+    "static/media/redCross.svg": "/static/media/redCross.7c5c1bd8c4b1d0e74daf2e537b0cc3a2.svg",
+    "static/media/greenCheck.svg": "/static/media/greenCheck.af6dbdbe4cd233eaa19eaaf8297d8c30.svg",
+    "static/media/logo.svg": "/static/media/logo.fe93e5f018aca561add79e3d1d51b252.svg",
+    "static/media/info.svg": "/static/media/info.8d8bcf79a80e2f8b75bce62c1a0ba9b5.svg",
+    "index.html": "/index.html",
+    "static/media/check.svg": "/static/media/check.fc90c7f9d66143d84b9c0a3ac07446d2.svg",
+    "main.36819185.css.map": "/static/css/main.36819185.css.map",
+    "main.81efd35f.js.map": "/static/js/main.81efd35f.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36819185.css",
+    "static/js/main.81efd35f.js"
+  ]
+}
