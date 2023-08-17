@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "no-unused-vars": "off",
+    "import/first": "off"
+    // Add any other rules you want to turn off here
+  }
+}

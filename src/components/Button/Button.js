@@ -1,20 +1,16 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const react_1 = __importDefault(require("react"));
-const react_router_dom_1 = require("react-router-dom");
-require("./Button.css");
-const Button = ({ title, variant, navUrl, type, wide, textAlign, onPress, }) => {
-    const navigate = (0, react_router_dom_1.useNavigate)();
-    const handleClick = () => {
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import "./Button.css";
+var Button = function (_a) {
+    var title = _a.title, variant = _a.variant, navUrl = _a.navUrl, type = _a.type, wide = _a.wide, textAlign = _a.textAlign, onPress = _a.onPress;
+    var navigate = useNavigate();
+    var handleClick = function () {
         if (navUrl) {
             navigate(navUrl);
         }
     };
-    return (react_1.default.createElement("div", { style: { textAlign: textAlign || "center", marginTop: 50 } },
-        react_1.default.createElement("button", { className: "customButton", style: type == "secondary"
+    return (React.createElement("div", { style: { textAlign: textAlign || "center", marginTop: 50 } },
+        React.createElement("button", { className: "customButton", style: type == "secondary"
                 ? {
                     backgroundColor: "#F5F5F5",
                     color: "blue",
@@ -27,4 +23,4 @@ const Button = ({ title, variant, navUrl, type, wide, textAlign, onPress, }) => 
                     width: wide ? 240 : 100,
                 }, onClick: onPress || handleClick }, title)));
 };
-exports.default = Button;
+export default Button;
