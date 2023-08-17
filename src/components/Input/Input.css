@@ -1,0 +1,36 @@
+.inputbox{
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:200px;
+    background-color: white;
+}
+
+.label {
+    margin-left: 0px;
+    font-family: "Montserrat";
+}
+
+.inputContainer {
+    margin-right: 40px;
+}
+
+.description {
+    color: "lightgray";
+    font-size: 13px;
+    font-family: "Montserrat";
+}
+
+select {
+    width: 300px;
+}
+
+input:focus, select:focus{
+    border: none;
+    outline: none;
+}

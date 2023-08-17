@@ -1,0 +1,203 @@
+.intake-container {
+    width: 100%;
+    background-color: rgba(228, 242, 255, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    border-radius: 20px;
+        margin-top: 40px;
+}
+
+.parent-intake {
+    background-color: rgba(228, 242, 255, 0.8);
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 80px;
+    border-radius: 20px;
+        margin-bottom: 100px;
+            width: 75vw;
+}
+
+.heading {
+    font-size: 20px;
+    font-family: "Montserrat";
+    width: 30%;
+    font-weight: 600;
+    margin-left: 40px;
+    padding-top: 100px;
+    margin-bottom: 80px;
+}
+
+.radiocontainer {
+    font-family: "Montserrat";
+     margin-top: 10px;
+}
+
+label {
+    margin-left: 10px;
+    color: gray
+}
+
+.question{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.questiontext{
+    font-family: "Montserrat";
+}
+
+textarea {
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.infotext-other{
+    color: white;
+        font-size: 15px;
+        font-family: "Montserrat";
+        padding-left: 20px;
+}
+
+.flex-other {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(79, 70, 229);
+    margin-left: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3);
+}
+
+.flex-row {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.btncontainerintake {
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+.shapeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: lightgray;
+    margin-left: -10px;
+    z-index: 100;
+}
+
+.bar {
+    width: 130px;
+    height: 15px;
+    background-color: lightgray;
+    margin-left: -10px;
+}
+
+.shape-parent {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.flex-shape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.heading2 {
+    font-size: 24px;
+        font-family: "Montserrat";
+        width: 30%;
+        font-weight: 600;
+        margin-left: 40px;
+        padding-top: 100px;
+        margin-bottom: 20px;
+}
+
+.mt-20 {
+    margin-top: 30px;
+}
+
+.bold {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btncontainerintake2 {
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 40px;
+}
+
+.label {
+    color: black;
+    font-weight: 500;
+}
+
+.align-center {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.flex-row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.fileinput {
+    width: 280px;
+    border: 1px dashed lightgray;
+    border-radius: 5px;
+    height: 100px;
+margin-right: 50px;
+padding: 20px;
+}

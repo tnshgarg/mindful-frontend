@@ -1,0 +1,55 @@
+.parent {
+    flex: 1;
+    background-image: linear-gradient(to bottom, rgba(228, 242, 255, 0.8), #fff);
+    padding-top: 40px;
+}
+
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: white;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    border-radius: 12px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 40px;
+}
+
+.halfContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.notFirst {
+    margin-top: 10px;
+}
+
+.others {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+    width: 35%;
+    margin-bottom: 40px;
+}
+
+.infotext {
+    color: rgb(79, 70, 229);
+    font-size: 15px;
+    font-family: "Montserrat";
+    padding-left: 20px;
+}

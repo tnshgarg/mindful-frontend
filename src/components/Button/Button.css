@@ -1,0 +1,14 @@
+
+.customButton {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Montserrat";
+    background-color: rgb(79, 70, 229);
+    transition: color 0.3s ease;
+    width: 200px;
+}
+
+.customButton:hover{ 
+    color: rgba(104, 104, 254, 0.8)
+}
